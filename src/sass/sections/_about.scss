@@ -28,6 +28,13 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
+
+      &-text {
+        padding-top: .75rem;
+        text-align: left;
+        font-weight: 600;
+      }
 
       @include respond(tab-land) {
         height: 100%;
